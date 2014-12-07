@@ -16,6 +16,7 @@
 
 		_gs('GSN-456229-R');
 	</script>
+
 </head>
 
 <body>
@@ -40,10 +41,10 @@
 				<h1><i class="fa fa-code"></i> hacker.surf</h1>
 				<h2>All the hacker jobs in one place.</h2>
 				<p>
-				One day I thought I'd try to find a freelance gig or two.<br /> That turned into 8 hours and about 23 browser tabs.<br />So I said <a href="https://www.youtube.com/watch?v=XxWmM1v6Bvw" target="_blank">fuck</a> that <a href="https://www.youtube.com/watch?v=G4YztQ5h-Mg" target="_blank">shit</a>, and made hacker.surf, to put all the hacker jobs in one place.<br /><i>Source code is <a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain license</a>, and on <a href="https://github.com/scotthasbrouck/HackerSurf" target="_blank"><i class="fa fa-github"></i> Github</a>. Enjoy.</i>
+				One day I thought I'd try to find a freelance gig or two.<br /> That turned into 8 hours and about 23 browser tabs.<br />So I said <a href="https://www.youtube.com/watch?v=XxWmM1v6Bvw" target="_blank">fuck</a> that <a href="https://www.youtube.com/watch?v=G4YztQ5h-Mg" target="_blank">shit</a>, and made hacker.surf, to put all the hacker jobs in one place.<br /><i>Source code is <a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain license</a>, and on <a href="https://github.com/scotthasbrouck/HackerSurf" target="_blank"><i class="fa fa-github"></i> GitHub</a>. Enjoy.</i>
 				 - <a href="http://scotthasbrouck.com" target="_blank">Scott Hasbrouck</a>
 				</p>
-				<p><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hacker.surf" data-text="Check out HackerSurf - #developer #jobs all in one place" data-via="scotthasbrouck">Tweet</a>
+				<p><a href="https://twitter.com/share" class="twitter-share-button" data-url="hacker.surf" data-text="Check out HackerSurf - #developer #jobs all in one place" data-via="scotthasbrouck">Tweet</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			</p>
         	</div>
@@ -57,7 +58,27 @@
 				<a href="https://twitter.com/intent/tweet?screen_name=scotthasbrouck&text=%23HackerSurf%20scrape%20request%3A%20" class="twitter-mention-button" data-related="scotthasbrouck">Recommend a new site to @scotthasbrouck</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 				</p>
+				<!-- Begin MailChimp Signup Form -->
+				<hr>
+				<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+				<div id="mc_embed_signup">
+				<form action="//surf.us9.list-manage.com/subscribe/post?u=cf7dcd416ab613c30730ebaa6&amp;id=a67daeed7b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			    <div id="mc_embed_signup_scroll">
+					<label for="mce-EMAIL">Get HackerSurf Job Updates</label>
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+				    <div style="position: absolute; left: -5000px;"><input type="text" name="b_cf7dcd416ab613c30730ebaa6_a67daeed7b" tabindex="-1" value=""></div>
+				    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+				    </div>
+				</form>
+				</div>
 			</div>
+			<!-- Hired.com thing -->
+			<div class="alert alert-info" id="get-book-alert" role="alert">
+				<h4>If you're on the job hunt, also <a href="http://hrd.cm/hacker_surf" target="_blank">check out Hired</a></h4>
+				They flip around the job board model: pre-screened companies <strong>apply to interview with you</strong>
+				<br/>It's <strong>free</strong> and the <i>average</i> hacker gets over 5 interview requests the first week<br />(we both know you're better than average <img src="dosequis.png" alt="dosequis"> )
+			</div>
+			<!-- Drum roll.... the jobs!!! -->
 			{{#each jobs}}
   				{{> job}}
 			{{/each}}
